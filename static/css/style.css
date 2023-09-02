@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Fira+Code&family=JetBrains+Mono&display=swap');
 
 :root {
   --interactive-blue: #8361d3;
@@ -112,7 +112,7 @@ h4:hover a {
   visibility: visible
 }
 .highlight pre {
-  padding: 7px;
+  padding: 8px;
   overflow-x: auto;
 }
 
@@ -120,9 +120,11 @@ h4:hover a {
   max-width: 100%;
   overflow-x: auto;
 }
-p code {
-  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace;
-  font-size: inherit;
+
+/* code block */
+p code, li code {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 14px;
   background-color: rgba(0, 0, 0, 0.06);
   padding: 0 2px;
   border: 1px solid rgba(0, 0, 0, 0.08);
@@ -131,13 +133,14 @@ p code {
   word-wrap: break-word;
   text-indent: 0;
 }
+
+/* code block snippet */
 pre code {
-  font-family: SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace;
+  font-size: 14px;
+  font-family: 'JetBrains Mono', monospace;
 }
 
-
 /* navigation */
-
 nav.navigation {
   padding: 20px 20px 0;
   background: #fff;
