@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 html[theme='dark-mode'] {
   filter: invert(1) hue-rotate(180deg);
 }
 
 body {
   line-height: 1;
-  font: normal 15px/1.5em 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font: normal 16px/1.5em 'Open Sans', Helvetica, Arial, sans-serif;
   color: #404040;
   line-height: 1.75;
   letter-spacing: 0.008em;
@@ -271,7 +273,7 @@ nav.navigation a.button {
 }
 
 .profile h2 {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 300;
   color: #757575;
   margin-top: 0;
@@ -307,6 +309,7 @@ nav.navigation a.button {
 }
 
 #list-page .date {
+  font-size: 14px;
   width: 20%;
   float: right;
   text-align: right;
@@ -317,10 +320,10 @@ nav.navigation a.button {
 
 #list-page .summary {
   color: #757575;
-  margin-top: 12px;
+  margin-top: 4px;
   word-break: normal;
   overflow-wrap: anywhere;
-  margin-bottom: 36px;
+  margin-bottom: 32px;
 }
 
 #list-page .cover {
@@ -401,7 +404,7 @@ nav.navigation a.button {
   color: #0366d6;
 }
 
-
+/* archive */
 #archive {
   max-width: 580px;
   margin: 0 auto;
