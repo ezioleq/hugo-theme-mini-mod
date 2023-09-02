@@ -161,11 +161,14 @@ nav.navigation {
 nav.navigation a {
   top: 8px;
   right: 6px;
-  padding: 8px 12px;
+  padding: 8px 6px;
   color: var(--interactive-blue);
-  font-size: 13px;
+  font-size: 14px;
   line-height: 1.35;
-  border-radius: 3px;
+  border-radius: 4px;
+}
+nav.navigation a.button {
+  padding: 8px 12px;
 }
 nav.navigation a:hover {
   color: var(--interactive-blue-hover);
@@ -188,11 +191,14 @@ nav.navigation a.button {
   nav.navigation a {
     top: 8px;
     right: 6px;
-    padding: 8px 8px;
+    padding: 8px 6px;
     color: var(--interactive-blue);
-    font-size: 13px;
+    font-size: 14px;
     line-height: 1.35;
-    border-radius: 3px;
+    border-radius: 4px;
+  }
+  nav.navigation a.button {
+    padding: 8px 8px;
   }
 }
 
