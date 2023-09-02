@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+:root {
+  --interactive-blue: #8361d3;
+  --interactive-blue-hover: #791ea3;
+}
+
 html[theme='dark-mode'] {
   filter: invert(1) hue-rotate(180deg);
 }
@@ -14,11 +19,11 @@ body {
 
 a {
   text-decoration: none;
-  color: #5badf0;
+  color: var(--interactive-blue)
 }
 
 a:hover {
-  color: #0366d6;
+  color: var(--interactive-blue-hover)
 }
 
 /* markdown content styles */
@@ -146,17 +151,17 @@ nav.navigation a {
   top: 8px;
   right: 6px;
   padding: 8px 12px;
-  color: #5badf0;
+  color: var(--interactive-blue);
   font-size: 13px;
   line-height: 1.35;
   border-radius: 3px;
 }
 nav.navigation a:hover {
-  color: #0366d6;
+  color: var(--interactive-blue-hover);
 }
 
 nav.navigation a.button {
-  background: #5badf0;
+  background: var(--interactive-blue);
   color: #fff;
   margin-left: 12px;
 }
@@ -173,7 +178,7 @@ nav.navigation a.button {
     top: 8px;
     right: 6px;
     padding: 8px 8px;
-    color: #5badf0;
+    color: var(--interactive-blue);
     font-size: 13px;
     line-height: 1.35;
     border-radius: 3px;
@@ -250,7 +255,6 @@ nav.navigation a.button {
 }
 
 /* profile  */
-
 .profile {
   margin: 60px auto 0 auto;
   text-align: center;
@@ -305,7 +309,7 @@ nav.navigation a.button {
 }
 
 #list-page .title a:hover {
-  color: #0366d6;
+  color: var(--interactive-blue-hover);
 }
 
 #list-page .date {
@@ -401,7 +405,7 @@ nav.navigation a.button {
   margin-right: 3px;
 }
 #single .tags a:hover {
-  color: #0366d6;
+  color: var(--interactive-blue-hover);
 }
 
 /* archive */
@@ -439,7 +443,7 @@ nav.navigation a.button {
   color:#404040;
 }
 #archive .group .value .title a:hover {
-  color: #0366d6;
+  color: var(--interactive-blue-hover);
 }
 #archive .group .value .tags {
   display: inline;
@@ -453,7 +457,7 @@ nav.navigation a.button {
   margin-right: 3px;
 }
 #archive .group .value .tags a:hover {
-  color: #0366d6;
+  color: var(--interactive-blue-hover);
 }
 
 /* taxonomy */
@@ -486,7 +490,7 @@ nav.navigation a.button {
   margin-right: 3px;
 }
 #tags .tag a:hover {
-  color: #0366d6;
+  color: var(--interactive-blue-hover);
 }
 
 /* section page */
