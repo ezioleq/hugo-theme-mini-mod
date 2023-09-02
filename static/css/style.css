@@ -3,10 +3,18 @@
 :root {
   --interactive-blue: #8361d3;
   --interactive-blue-hover: #791ea3;
+
+  --selection-color: #ffffff;
+  --selection-bg-color: #8361d3;
 }
 
 html[theme='dark-mode'] {
   filter: invert(1) hue-rotate(180deg);
+}
+
+::selection {
+  color: var(--selection-color);
+  background-color: var(--selection-bg-color);
 }
 
 body {
