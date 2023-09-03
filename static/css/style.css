@@ -6,6 +6,9 @@
 
   --selection-color: #ffffff;
   --selection-bg-color: #8361d3;
+
+  --in-block-border-radius: 8px;
+  --tag-border-radius: 4px;
 }
 
 html[theme='dark-mode'] {
@@ -107,6 +110,7 @@ pre {
 }
 .markdown-image img {
   max-width: 100%;
+  border-radius: var(--in-block-border-radius);
 }
 .anchor { 
   font-size: 100%; 
@@ -121,6 +125,7 @@ h4:hover a {
 }
 .highlight pre {
   padding: 8px;
+  border-radius: var(--in-block-border-radius);
   overflow-x: auto;
 }
 
@@ -211,8 +216,8 @@ nav.navigation a.button {
 /* toc */
 .toc {
   margin: auto;
-  background: #f8f8f8;
-  border-radius: 0;
+  background: #f1f1f1;
+  border-radius: var(--in-block-border-radius);
   padding: 10px 7px;
   margin-top: 36px;
 }
@@ -416,6 +421,7 @@ nav.navigation a.button {
 }
 #single .tags a {
   background: #f2f2f2;
+  border-radius: var(--tag-border-radius);
   padding: 4px 7px;
   color: #757575;
   font-size: 14px;
@@ -468,6 +474,7 @@ nav.navigation a.button {
 }
 #archive .group .value .tags a {
   background: #f2f2f2;
+  border-radius: var(--tag-border-radius);
   padding: 4px 7px;
   color: #999;
   font-size: 14px;
