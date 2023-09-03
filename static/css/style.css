@@ -251,7 +251,7 @@ nav.navigation a.button {
 }
 #footer .copyright {
   margin: 20px auto;
-  font-size: 15px;
+  font-size: 14px;
 }
 .powerby {
   margin: 20px auto;
@@ -439,7 +439,7 @@ nav.navigation a.button {
 }
 
 #archive .total {
-  font-size: 15px;
+  font-size: 16px;
 }
 
 #archive .group {
@@ -538,7 +538,7 @@ nav.navigation a.button {
 #page-404 .title {
   display: inline-block;
   color: #404040;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 400;
   margin: 0;
   width: 80%;
