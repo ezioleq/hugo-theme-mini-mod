@@ -108,9 +108,15 @@ pre {
   word-break: normal;
   overflow-wrap: anywhere;
 }
+.markdown-image {
+  text-align: center;
+}
 .markdown-image img {
   max-width: 100%;
   border-radius: var(--in-block-border-radius);
+}
+.markdown-image i {
+  color: #999;
 }
 .anchor { 
   font-size: 100%; 

@@ -2,4 +2,5 @@
   <a href="{{ .Destination | safeURL }}" target="_blank">
     <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title}} title="{{ . }}"{{ end }} />
   </a>
+  <i>{{ .Text }}</i>
 </p>
